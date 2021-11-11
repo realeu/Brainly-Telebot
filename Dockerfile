@@ -1,4 +1,4 @@
-FROM realeu/brainly-telebot:main
+FROM python
 
 RUN git clone https://github.com/nekozu/brainly-telebot
 
