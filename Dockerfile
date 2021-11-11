@@ -1,6 +1,7 @@
 FROM python
 
-RUN git clone https://github.com/nekozu/brainly-telebot
+RUN git clone https://github.com/nekozu/Brainly-Telebot.git root/realEU
+WORKDIR root/realEU/
 
 RUN cd brainly-telebot
 
@@ -9,3 +10,4 @@ RUN pip3 install -r requirements.txt
 COPY .env.example .ENV
 
 CMD ["python", "-m", "Brainly"]
+
