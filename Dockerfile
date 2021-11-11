@@ -3,7 +3,7 @@ FROM python
 RUN git clone https://github.com/nekozu/Brainly-Telebot.git root/realEU
 WORKDIR root/realEU/
 
-RUN cd Brainly-Telebot
+RUN cd Brainly
 
 RUN pip3 install -r requirements.txt
     
